@@ -64,7 +64,7 @@ A comprehensive web application for managing industrial attachment matching betw
 
 ### Installation
 
-1. Clone the repository
+1. Clone the repository and ```cd iams```
 2. Install dependencies:
    ```bash
    npm install
