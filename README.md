@@ -62,6 +62,7 @@ A comprehensive web application for managing industrial attachment matching betw
 1. Clone the repository and ```cd iams```
 
 2. Configure environment variables in `.env`:
+
    Create```.env``` and add
    ```
    VITE_SUPABASE_URL=your_supabase_url
