@@ -66,9 +66,9 @@ A comprehensive web application for managing industrial attachment matching betw
    VITE_SUPABASE_URL=your_supabase_url
    VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
    ```
-3. ```docker compose up --build```
-
-4. Open at ```http://localhost:8080/``` 
+3. ```docker compose build```
+4. ```docker compose up```
+5. Open at ```http://localhost:8080/``` 
 
 ## Default Login Credentials
 
