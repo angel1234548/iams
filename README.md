@@ -57,34 +57,18 @@ A comprehensive web application for managing industrial attachment matching betw
 
 ## Getting Started
 
-### Prerequisites
-
-- Node.js (v18 or higher)
-- Supabase account and project
-
 ### Installation
 
 1. Clone the repository and ```cd iams```
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
 
-3. Set up Supabase:
-   - Create a Supabase project
-   - Run the migration in `supabase/migrations/`
-   - Execute `seed_data.sql` to create a default coordinator
-
-4. Configure environment variables in `.env`:
+2. Configure environment variables in `.env`:
    ```
    VITE_SUPABASE_URL=your_supabase_url
    VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
    ```
+3. ```docker compose up --build```
 
-5. Start the development server:
-   ```bash
-   npm run dev
-   ```
+4. Open at ```http://localhost:8080/``` 
 
 ## Default Login Credentials
 
