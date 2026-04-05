@@ -62,13 +62,14 @@ A comprehensive web application for managing industrial attachment matching betw
 1. Clone the repository and ```cd iams```
 
 2. Configure environment variables in `.env`:
+   Create```.env``` and add
    ```
    VITE_SUPABASE_URL=your_supabase_url
    VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
    ```
-3. ```docker compose build```
-4. ```docker compose up```
-5. Open at ```http://localhost:8080/``` 
+4. ```docker compose build```
+5. ```docker compose up```
+6. Open at ```http://localhost:8080/``` 
 
 ## Default Login Credentials
 
